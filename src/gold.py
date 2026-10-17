@@ -32,9 +32,17 @@ SELECT
     u.unidad_medida,
     u.fecha                       AS fecha_ultimo_valor,
     u.valor                       AS ultimo_valor,
-    -- valor más reciente de hace al menos 30 y 365 días (ASOF JOIN busca "el último antes de")
-    round(100 * (u.valor / m30.valor - 1), 2)  AS variacion_30d_pct,
-    round(100 * (u.valor / m365.valor - 1), 2) AS variacion_12m_pct
+    -- Indicadores en pesos o dólares: variación porcentual.
+    -- Indicadores que ya son porcentajes (IPC, TPM...): diferencia en puntos porcentuales.
+    CASE WHEN u.unidad_medida = 'Porcentaje' THEN 'puntos' ELSE '%' END AS tipo_variacion,
+    CASE WHEN u.unidad_medida = 'Porcentaje'
+         THEN round(u.valor - m30.valor, 2)
+         ELSE round(100 * (u.valor / m30.valor - 1), 2)
+    END AS variacion_30d,
+    CASE WHEN u.unidad_medida = 'Porcentaje'
+         THEN round(u.valor - m365.valor, 2)
+         ELSE round(100 * (u.valor / m365.valor - 1), 2)
+    END AS variacion_12m
 FROM ultimo u
 ASOF LEFT JOIN '{SILVER}' m30
     ON m30.indicador = u.indicador AND m30.fecha <= u.fecha - INTERVAL 30 DAY
@@ -84,7 +92,7 @@ def main():
         filas = con.sql(f"SELECT count(*) FROM '{destino}'").fetchone()[0]
         log.info("%-22s %6d filas -> %s", nombre, filas, destino)
 
-    print(con.sql(f"SELECT * EXCLUDE (nombre) FROM '{(GOLD / 'resumen_indicadores.parquet').as_posix()}'"))
+    print(con.sql(f"SELECT * EXCLUDE (nombre, unidad_medida) FROM '{(GOLD / 'resumen_indicadores.parquet').as_posix()}'"))
 
 
 if __name__ == "__main__":
