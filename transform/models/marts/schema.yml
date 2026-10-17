@@ -29,3 +29,14 @@ models:
       - name: valor
         data_tests:
           - not_null
+
+  - name: historico_indicadores
+    description: "Serie completa de cada indicador, un valor por fecha publicada. La usa la API."
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+      - name: valor
+        data_tests:
+          - not_null
