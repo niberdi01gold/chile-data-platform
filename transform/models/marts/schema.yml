@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: resumen_indicadores
+    description: "Último valor de cada indicador y su variación. Para la API y la portada del dashboard."
+    columns:
+      - name: indicador
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('reglas_indicadores')
+                field: indicador
+      - name: tipo_variacion
+        description: "'%' para montos; 'puntos' para indicadores que ya son porcentajes."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['%', 'puntos']
+
+  - name: indicadores_diarios
+    description: "Un valor por día calendario. publicado = false indica que el valor se repite de un día anterior."
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+      - name: valor
+        data_tests:
+          - not_null

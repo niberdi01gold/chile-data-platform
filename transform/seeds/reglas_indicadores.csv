@@ -1,0 +1,10 @@
+indicador,frecuencia,max_dias_sin_datos,minimo,maximo
+dolar,diaria,7,600,1500
+euro,diaria,7,700,1700
+uf,diaria,7,25000,50000
+libra_cobre,diaria,7,2,8
+tpm,diaria,7,0,15
+utm,mensual,45,45000,90000
+ipc,mensual,75,-3,5
+imacec,mensual,100,-20,30
+tasa_desempleo,mensual,100,3,15
