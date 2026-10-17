@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_indicadores
+    description: "Capa silver: una fila por indicador y fecha, deduplicada, con la fecha en hora de Chile."
+    columns:
+      - name: id
+        description: "Clave única: indicador + fecha."
+        data_tests:
+          - unique
+          - not_null
+      - name: indicador
+        description: "Código del indicador en mindicador.cl."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [dolar, euro, uf, utm, ipc, libra_cobre, tpm, imacec, tasa_desempleo]
+      - name: fecha
+        description: "Fecha del dato, en hora de Chile."
+        data_tests:
+          - not_null
+      - name: valor
+        data_tests:
+          - not_null

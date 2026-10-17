@@ -1,0 +1,13 @@
+name: chile_data_platform
+version: "1.0.0"
+profile: chile_data_platform
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  chile_data_platform:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
