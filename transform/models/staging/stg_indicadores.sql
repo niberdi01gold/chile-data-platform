@@ -2,7 +2,7 @@
 
 with crudo as (
     select codigo, nombre, unidad_medida, serie, filename
-    from read_json('../data/bronze/mindicador/*/*.json', filename = true)
+    from {{ source('mindicador', 'bronze') }}
 ),
 
 filas as (
