@@ -32,8 +32,12 @@ jobs:
       - name: Pruebas de la API
         run: pytest -v
 
-      - name: Extraer datos reales de mindicador.cl
-        run: python src/extraer.py
+      # mindicador.cl no responde a los servidores de GitHub (fuera de Chile), así que la
+      # CI usa una muestra real guardada en el repositorio. La extracción diaria la hace Dagster.
+      - name: Cargar datos de muestra (capa bronze)
+        run: |
+          mkdir -p data/bronze
+          cp -r tests/fixtures/bronze/mindicador data/bronze/
 
       - name: dbt build (modelos + pruebas de calidad)
         working-directory: transform
