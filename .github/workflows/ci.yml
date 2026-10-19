@@ -45,3 +45,10 @@ jobs:
 
       - name: Validar la definición de Dagster
         run: dagster definitions validate -f orquestacion/definitions.py
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Construir la imagen de la API
+        run: docker build -t chile-api .

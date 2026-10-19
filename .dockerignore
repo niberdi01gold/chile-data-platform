@@ -1,0 +1,10 @@
+# Lo que NO se copia a la imagen
+.venv/
+data/
+.git/
+transform/
+orquestacion/
+tests/
+docs/
+__pycache__/
+.tmp_dagster_home*/
