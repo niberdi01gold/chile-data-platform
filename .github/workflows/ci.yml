@@ -1,0 +1,43 @@
+# Integración continua: en cada push, GitHub arma el proyecto desde cero en una
+# máquina Linux limpia y comprueba que todo funcione.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:        # permite lanzarlo a mano desde la pestaña Actions
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: |
+          # pywin32 solo existe en Windows: se quita antes de instalar en Linux
+          grep -viE '^(pywin32|pyreadline3)==' requirements.txt > requirements-linux.txt
+          pip install -r requirements-linux.txt
+
+      - name: Pruebas de la API
+        run: pytest -v
+
+      - name: Extraer datos reales de mindicador.cl
+        run: python src/extraer.py
+
+      - name: dbt build (modelos + pruebas de calidad)
+        working-directory: transform
+        run: dbt build --profiles-dir .
+
+      - name: Validar la definición de Dagster
+        run: dagster definitions validate -f orquestacion/definitions.py
