@@ -1,0 +1,20 @@
+# Diagnostico de red: prueba desde los servidores de GitHub (EE.UU.)
+# si responden las posibles fuentes de datos. Se lanza a mano.
+name: Diagnostico de red
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probar fuentes de datos
+        run: |
+          probar() {
+            resultado=$(curl -s -o /dev/null -w "%{http_code} en %{time_total}s" --max-time 20 "$2" || echo "SIN RESPUESTA (timeout)")
+            echo "$1 -> $resultado"
+          }
+          probar "mindicador.cl   " "https://mindicador.cl/api/dolar"
+          probar "CMF             " "https://api.cmfchile.cl/api-sbifv3/recursos_api/dolar?apikey=prueba&formato=json"
+          probar "Banco Central   " "https://si3.bcentral.cl/SieteRestWS/SieteRestWS.ashx?user=prueba&pass=prueba&function=GetSeries&timeseries=F073.TCO.PRE.Z.D"
