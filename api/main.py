@@ -7,7 +7,10 @@ Uso (desde la carpeta raíz del proyecto):
 Documentación interactiva: http://127.0.0.1:8000/docs
 """
 
+import logging
 import os
+import urllib.request
+from contextlib import asynccontextmanager
 from datetime import date
 from pathlib import Path
 
@@ -17,8 +20,24 @@ from pydantic import BaseModel
 
 RAIZ = Path(__file__).resolve().parent.parent
 RUTA_BD = os.getenv("RUTA_BD", str(RAIZ / "data" / "warehouse.duckdb"))
+# En la nube: dirección desde donde descargar la base publicada por el workflow diario
+DATOS_URL = os.getenv("DATOS_URL")
+
+log = logging.getLogger("uvicorn.error")
+
+
+@asynccontextmanager
+async def al_iniciar(app):
+    """Si hay DATOS_URL, descarga la base más reciente antes de empezar a responder."""
+    if DATOS_URL:
+        Path(RUTA_BD).parent.mkdir(parents=True, exist_ok=True)
+        urllib.request.urlretrieve(DATOS_URL, RUTA_BD)
+        log.info("Base descargada desde %s (%d KB)", DATOS_URL, Path(RUTA_BD).stat().st_size // 1024)
+    yield
+
 
 app = FastAPI(
+    lifespan=al_iniciar,
     title="Chile Data Platform API",
     description="Indicadores económicos de Chile (dólar, UF, UTM, IPC, cobre...) actualizados a diario.",
     version="1.0.0",
