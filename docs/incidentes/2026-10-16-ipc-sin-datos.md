@@ -33,10 +33,21 @@ recientes. Una respuesta vacía era técnicamente válida.
 
 - [x] Agregar pruebas de frescura por indicador, con umbrales según su calendario de publicación.
 - [x] Mantener la prueba fallando mientras el problema siga abierto, para que no se olvide.
-- [ ] Agregar una fuente alternativa oficial para el IPC (API del Banco Central de Chile o INE).
+- [x] Agregar una fuente alternativa oficial para el IPC: API del Banco Central de Chile (2026-10-21).
 - [ ] Alertar automáticamente cuando una prueba falle (fase de orquestación).
 
 ## Lección
 
 Una respuesta sin errores no significa datos correctos. Validar la forma de los datos no
 basta: también hay que validar que estén completos y al día.
+## Resolución (2026-10-21)
+
+Se agregó la **API oficial del Banco Central de Chile** como fuente principal para los 9
+indicadores (`src/extraer_bcch.py`), incluido el IPC (serie `G073.IPC.VAR.2023.M`).
+
+- Antes de elegirla se **midió** desde los servidores de GitHub (EE.UU.) con un diagnóstico de
+  red (`.github/workflows/red.yml`): mindicador.cl respondió en 7,15 s y el Banco Central en 0,37 s.
+- mindicador.cl queda como **respaldo**: si el Banco Central no entrega un indicador, el modelo
+  `int_indicadores` usa mindicador.cl para ese indicador (sin mezclar fuentes dentro de uno mismo).
+- Los códigos de las series viven en un solo lugar (`transform/seeds/series_bcch.csv`), que leen
+  tanto el extractor como dbt.

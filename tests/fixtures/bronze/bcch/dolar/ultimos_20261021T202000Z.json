@@ -1,0 +1,4017 @@
+{
+  "Codigo": 0,
+  "Descripcion": "Success",
+  "Series": {
+    "descripEsp": "Tipo de cambio nominal (dólar observado $CLP/USD)\\ tipo de cambio \\ precio \\ diario \\ BCCh",
+    "descripIng": "Nominal exchange rate (Observed dollar $CLP/USD) \\ exchange rate \\ price \\ daily \\ CBC",
+    "seriesId": "F073.TCO.PRE.Z.D",
+    "Obs": [
+      {
+        "indexDateString": "12-08-2024",
+        "value": "932.62",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-08-2024",
+        "value": "931.96",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-08-2024",
+        "value": "932.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-08-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-08-2024",
+        "value": "931.39",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-08-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "18-08-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-08-2024",
+        "value": "933.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-08-2024",
+        "value": "929.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-08-2024",
+        "value": "922.58",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-08-2024",
+        "value": "918.97",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-08-2024",
+        "value": "919.94",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-08-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "25-08-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-08-2024",
+        "value": "911.01",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-08-2024",
+        "value": "907.35",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-08-2024",
+        "value": "907.32",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-08-2024",
+        "value": "912.08",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-08-2024",
+        "value": "917.38",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-08-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-09-2024",
+        "value": "913.99",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-09-2024",
+        "value": "915.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-09-2024",
+        "value": "926.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-09-2024",
+        "value": "937.86",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-09-2024",
+        "value": "941.54",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "08-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-09-2024",
+        "value": "943.18",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-09-2024",
+        "value": "946.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-09-2024",
+        "value": "948.85",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-09-2024",
+        "value": "943.44",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-09-2024",
+        "value": "933.57",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "15-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-09-2024",
+        "value": "925.61",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-09-2024",
+        "value": "923.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-09-2024",
+        "value": "927.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-09-2024",
+        "value": "924.81",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-09-2024",
+        "value": "911.51",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-09-2024",
+        "value": "912.24",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-09-2024",
+        "value": "900.91",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "29-09-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "30-09-2024",
+        "value": "896.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2024",
+        "value": "897.68",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-10-2024",
+        "value": "901.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-10-2024",
+        "value": "908.23",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-10-2024",
+        "value": "919.49",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "06-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "07-10-2024",
+        "value": "923.74",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-10-2024",
+        "value": "925.86",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-10-2024",
+        "value": "933.62",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-10-2024",
+        "value": "934.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-10-2024",
+        "value": "931.26",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "14-10-2024",
+        "value": "926.07",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-10-2024",
+        "value": "928.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-10-2024",
+        "value": "937.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-10-2024",
+        "value": "941.3",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-10-2024",
+        "value": "945.01",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-10-2024",
+        "value": "946.99",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-10-2024",
+        "value": "954.39",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-10-2024",
+        "value": "949",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-10-2024",
+        "value": "948.2",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-10-2024",
+        "value": "945.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "27-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "28-10-2024",
+        "value": "949.34",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-10-2024",
+        "value": "945.88",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-10-2024",
+        "value": "950.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-10-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "03-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "04-11-2024",
+        "value": "961.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-11-2024",
+        "value": "956.54",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-11-2024",
+        "value": "954.9",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-11-2024",
+        "value": "968.6",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-11-2024",
+        "value": "950.99",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "10-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "11-11-2024",
+        "value": "963.09",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-11-2024",
+        "value": "980.47",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-11-2024",
+        "value": "983.76",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-11-2024",
+        "value": "981.61",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-11-2024",
+        "value": "975.44",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "18-11-2024",
+        "value": "974.51",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-11-2024",
+        "value": "976.86",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-11-2024",
+        "value": "973.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-11-2024",
+        "value": "972.68",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-11-2024",
+        "value": "971.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "24-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "25-11-2024",
+        "value": "982.08",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-11-2024",
+        "value": "976.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-11-2024",
+        "value": "975.06",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-11-2024",
+        "value": "975.41",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-11-2024",
+        "value": "977.32",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-11-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-12-2024",
+        "value": "977.66",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-12-2024",
+        "value": "979.1",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-12-2024",
+        "value": "972.75",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-12-2024",
+        "value": "974.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-12-2024",
+        "value": "971.65",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "08-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-12-2024",
+        "value": "971.62",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-12-2024",
+        "value": "969.92",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-12-2024",
+        "value": "972.43",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-12-2024",
+        "value": "975.81",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-12-2024",
+        "value": "975.67",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "15-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-12-2024",
+        "value": "983.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-12-2024",
+        "value": "989.93",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-12-2024",
+        "value": "990.87",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-12-2024",
+        "value": "988.44",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-12-2024",
+        "value": "996.35",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-12-2024",
+        "value": "991.18",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-12-2024",
+        "value": "992.78",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-12-2024",
+        "value": "989.07",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-12-2024",
+        "value": "990.95",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "29-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "30-12-2024",
+        "value": "992.12",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-12-2024",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-01-2025",
+        "value": "996.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-01-2025",
+        "value": "999.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "05-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "06-01-2025",
+        "value": "1011.82",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-01-2025",
+        "value": "1010.98",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-01-2025",
+        "value": "1005.85",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-01-2025",
+        "value": "1007.51",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-01-2025",
+        "value": "1003.92",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "12-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-01-2025",
+        "value": "1009.2",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-01-2025",
+        "value": "1012.76",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-01-2025",
+        "value": "1004.67",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-01-2025",
+        "value": "1001.93",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-01-2025",
+        "value": "1010.68",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-01-2025",
+        "value": "1012.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-01-2025",
+        "value": "1001.93",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-01-2025",
+        "value": "1002.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-01-2025",
+        "value": "995.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-01-2025",
+        "value": "989.83",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-01-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "27-01-2025",
+        "value": "982.95",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-01-2025",
+        "value": "985.64",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-01-2025",
+        "value": "992.07",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-01-2025",
+        "value": "990.94",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-01-2025",
+        "value": "988.1",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-02-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "03-02-2025",
+        "value": "984.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-02-2025",
+        "value": "987.12",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-02-2025",
+        "value": "977.58",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-02-2025",
+        "value": "969.47",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-02-2025",
+        "value": "967.59",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-02-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-02-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "10-02-2025",
+        "value": "960.6",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-02-2025",
+        "value": "960.81",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-02-2025",
+        "value": "961.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-02-2025",
+        "value": "956.63",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-02-2025",
+        "value": "949.52",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-02-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-02-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-02-2025",
+        "value": "939.54",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-02-2025",
+        "value": "947.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-02-2025",
+        "value": "950.43",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-02-2025",
+        "value": "951.78",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-02-2025",
+        "value": "944.65",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-02-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-02-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "24-02-2025",
+        "value": "942.52",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-02-2025",
+        "value": "946.96",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-02-2025",
+        "value": "940.99",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-02-2025",
+        "value": "941.76",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-02-2025",
+        "value": "951.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "03-03-2025",
+        "value": "954.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-03-2025",
+        "value": "953.11",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-03-2025",
+        "value": "948.87",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-03-2025",
+        "value": "936.7",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-03-2025",
+        "value": "926.52",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "10-03-2025",
+        "value": "928.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-03-2025",
+        "value": "931.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-03-2025",
+        "value": "937.45",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-03-2025",
+        "value": "932.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-03-2025",
+        "value": "940.2",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-03-2025",
+        "value": "932.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-03-2025",
+        "value": "923.32",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-03-2025",
+        "value": "917.97",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-03-2025",
+        "value": "917.76",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-03-2025",
+        "value": "926.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "24-03-2025",
+        "value": "932.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-03-2025",
+        "value": "926.41",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-03-2025",
+        "value": "919.92",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-03-2025",
+        "value": "920.98",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-03-2025",
+        "value": "931.75",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "30-03-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "31-03-2025",
+        "value": "946.1",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2025",
+        "value": "953.07",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-04-2025",
+        "value": "946.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-04-2025",
+        "value": "949.83",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-04-2025",
+        "value": "946.59",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "06-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "07-04-2025",
+        "value": "975.82",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-04-2025",
+        "value": "990.68",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-04-2025",
+        "value": "993.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-04-2025",
+        "value": "1000.01",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-04-2025",
+        "value": "988.97",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "14-04-2025",
+        "value": "978.09",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-04-2025",
+        "value": "966.07",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-04-2025",
+        "value": "967.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-04-2025",
+        "value": "969.23",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-04-2025",
+        "value": "968.71",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-04-2025",
+        "value": "961.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-04-2025",
+        "value": "950.04",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-04-2025",
+        "value": "938.02",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-04-2025",
+        "value": "937.81",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "27-04-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "28-04-2025",
+        "value": "936.74",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-04-2025",
+        "value": "937.54",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-04-2025",
+        "value": "945.42",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-05-2025",
+        "value": "955.67",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "04-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "05-05-2025",
+        "value": "940.95",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-05-2025",
+        "value": "940.18",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-05-2025",
+        "value": "939.67",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-05-2025",
+        "value": "945.44",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-05-2025",
+        "value": "941.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "11-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "12-05-2025",
+        "value": "933.26",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-05-2025",
+        "value": "941.2",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-05-2025",
+        "value": "940.18",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-05-2025",
+        "value": "939.43",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-05-2025",
+        "value": "940.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "18-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-05-2025",
+        "value": "944.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-05-2025",
+        "value": "936.69",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-05-2025",
+        "value": "942.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-05-2025",
+        "value": "944.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "25-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-05-2025",
+        "value": "940.81",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-05-2025",
+        "value": "938.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-05-2025",
+        "value": "937.93",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-05-2025",
+        "value": "940.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-05-2025",
+        "value": "937.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-05-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-06-2025",
+        "value": "941.97",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-06-2025",
+        "value": "939.65",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-06-2025",
+        "value": "941.53",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-06-2025",
+        "value": "936.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-06-2025",
+        "value": "930.79",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "08-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-06-2025",
+        "value": "933.91",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-06-2025",
+        "value": "937.09",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-06-2025",
+        "value": "938.88",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-06-2025",
+        "value": "936.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-06-2025",
+        "value": "930.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "15-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-06-2025",
+        "value": "937.78",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-06-2025",
+        "value": "935.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-06-2025",
+        "value": "939.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-06-2025",
+        "value": "943.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-06-2025",
+        "value": "947.03",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-06-2025",
+        "value": "950.16",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-06-2025",
+        "value": "937.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-06-2025",
+        "value": "936.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-06-2025",
+        "value": "930.67",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "29-06-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "30-06-2025",
+        "value": "935.74",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2025",
+        "value": "933.42",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-07-2025",
+        "value": "926.62",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-07-2025",
+        "value": "926.51",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-07-2025",
+        "value": "927.87",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "06-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "07-07-2025",
+        "value": "932.34",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-07-2025",
+        "value": "940.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-07-2025",
+        "value": "945.39",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-07-2025",
+        "value": "948.33",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-07-2025",
+        "value": "950.43",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "14-07-2025",
+        "value": "955.73",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-07-2025",
+        "value": "967.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-07-2025",
+        "value": "965.65",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-07-2025",
+        "value": "966.78",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-07-2025",
+        "value": "961.55",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-07-2025",
+        "value": "956.65",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-07-2025",
+        "value": "953.4",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-07-2025",
+        "value": "948.93",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-07-2025",
+        "value": "951.27",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "27-07-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "28-07-2025",
+        "value": "957.82",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-07-2025",
+        "value": "969.75",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-07-2025",
+        "value": "970.09",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-07-2025",
+        "value": "978.07",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2025",
+        "value": "976.8",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "03-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "04-08-2025",
+        "value": "967.48",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-08-2025",
+        "value": "964.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-08-2025",
+        "value": "966.02",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-08-2025",
+        "value": "976.42",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-08-2025",
+        "value": "971.88",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "10-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "11-08-2025",
+        "value": "965.64",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-08-2025",
+        "value": "969.77",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-08-2025",
+        "value": "962.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-08-2025",
+        "value": "952.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "18-08-2025",
+        "value": "961.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-08-2025",
+        "value": "966.24",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-08-2025",
+        "value": "963.57",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-08-2025",
+        "value": "965.06",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-08-2025",
+        "value": "968.63",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "24-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "25-08-2025",
+        "value": "964.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-08-2025",
+        "value": "962.51",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-08-2025",
+        "value": "965.01",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-08-2025",
+        "value": "968.64",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-08-2025",
+        "value": "967.48",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "31-08-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-09-2025",
+        "value": "965.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-09-2025",
+        "value": "968.35",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-09-2025",
+        "value": "974.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-09-2025",
+        "value": "969.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-09-2025",
+        "value": "971.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "07-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "08-09-2025",
+        "value": "964.58",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-09-2025",
+        "value": "967.07",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-09-2025",
+        "value": "966.35",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-09-2025",
+        "value": "962.73",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-09-2025",
+        "value": "955.47",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "14-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "15-09-2025",
+        "value": "954.58",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-09-2025",
+        "value": "951.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-09-2025",
+        "value": "948.57",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-09-2025",
+        "value": "951.03",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-09-2025",
+        "value": "954.72",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-09-2025",
+        "value": "952.87",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-09-2025",
+        "value": "953.24",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-09-2025",
+        "value": "956.42",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "28-09-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "29-09-2025",
+        "value": "958.9",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-09-2025",
+        "value": "961.24",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2025",
+        "value": "962.39",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-10-2025",
+        "value": "959.19",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-10-2025",
+        "value": "961.54",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "05-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "06-10-2025",
+        "value": "963.17",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-10-2025",
+        "value": "963.09",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-10-2025",
+        "value": "961.61",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-10-2025",
+        "value": "951.45",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-10-2025",
+        "value": "948.77",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "12-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-10-2025",
+        "value": "954.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-10-2025",
+        "value": "957.66",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-10-2025",
+        "value": "963.69",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-10-2025",
+        "value": "959.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-10-2025",
+        "value": "956.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-10-2025",
+        "value": "960.34",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-10-2025",
+        "value": "953.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-10-2025",
+        "value": "951.78",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-10-2025",
+        "value": "950.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-10-2025",
+        "value": "945.34",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "27-10-2025",
+        "value": "943.47",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-10-2025",
+        "value": "938.19",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-10-2025",
+        "value": "941.63",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-10-2025",
+        "value": "940.57",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-10-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "03-11-2025",
+        "value": "943.69",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-11-2025",
+        "value": "940.53",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-11-2025",
+        "value": "945.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-11-2025",
+        "value": "945.6",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-11-2025",
+        "value": "940.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "10-11-2025",
+        "value": "946.24",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-11-2025",
+        "value": "940.85",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-11-2025",
+        "value": "936.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-11-2025",
+        "value": "932.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-11-2025",
+        "value": "925.63",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-11-2025",
+        "value": "932.63",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-11-2025",
+        "value": "919.82",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-11-2025",
+        "value": "929.26",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-11-2025",
+        "value": "931.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-11-2025",
+        "value": "929",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "24-11-2025",
+        "value": "937.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-11-2025",
+        "value": "939.57",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-11-2025",
+        "value": "937.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-11-2025",
+        "value": "930.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-11-2025",
+        "value": "929.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "30-11-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-12-2025",
+        "value": "928.16",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-12-2025",
+        "value": "927.95",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-12-2025",
+        "value": "925.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-12-2025",
+        "value": "919.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-12-2025",
+        "value": "918.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "07-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "08-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-12-2025",
+        "value": "920.02",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-12-2025",
+        "value": "926.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-12-2025",
+        "value": "923.99",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-12-2025",
+        "value": "916.9",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "14-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "15-12-2025",
+        "value": "912.66",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-12-2025",
+        "value": "912.03",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-12-2025",
+        "value": "913.74",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-12-2025",
+        "value": "917.45",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-12-2025",
+        "value": "914.99",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-12-2025",
+        "value": "909.9",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-12-2025",
+        "value": "908.4",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-12-2025",
+        "value": "906.44",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-12-2025",
+        "value": "905.04",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "28-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "29-12-2025",
+        "value": "904.54",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-12-2025",
+        "value": "911.18",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-12-2025",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-01-2026",
+        "value": "907.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "04-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "05-01-2026",
+        "value": "901.55",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-01-2026",
+        "value": "905.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-01-2026",
+        "value": "896.82",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-01-2026",
+        "value": "895.33",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-01-2026",
+        "value": "896.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "11-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "12-01-2026",
+        "value": "895.54",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-01-2026",
+        "value": "885.71",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-01-2026",
+        "value": "883.96",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-01-2026",
+        "value": "882.74",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-01-2026",
+        "value": "884.57",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "18-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-01-2026",
+        "value": "887.01",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-01-2026",
+        "value": "888.66",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-01-2026",
+        "value": "889.54",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-01-2026",
+        "value": "878.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-01-2026",
+        "value": "872.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "25-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-01-2026",
+        "value": "870.71",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-01-2026",
+        "value": "862.98",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-01-2026",
+        "value": "862.17",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-01-2026",
+        "value": "857.95",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-01-2026",
+        "value": "858.45",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-01-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-02-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-02-2026",
+        "value": "865.1",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-02-2026",
+        "value": "868.52",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-02-2026",
+        "value": "859.53",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-02-2026",
+        "value": "857.59",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-02-2026",
+        "value": "865.67",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-02-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "08-02-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-02-2026",
+        "value": "859.66",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-02-2026",
+        "value": "854.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-02-2026",
+        "value": "856.06",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-02-2026",
+        "value": "856.38",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-02-2026",
+        "value": "854.41",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-02-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "15-02-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-02-2026",
+        "value": "863.5",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-02-2026",
+        "value": "862.91",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-02-2026",
+        "value": "868.24",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-02-2026",
+        "value": "863.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-02-2026",
+        "value": "866.74",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-02-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-02-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-02-2026",
+        "value": "867.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-02-2026",
+        "value": "867.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-02-2026",
+        "value": "865.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-02-2026",
+        "value": "857.58",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-02-2026",
+        "value": "861.19",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-02-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-03-2026",
+        "value": "871.41",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-03-2026",
+        "value": "884.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-03-2026",
+        "value": "906.32",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-03-2026",
+        "value": "895.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-03-2026",
+        "value": "907.66",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "08-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-03-2026",
+        "value": "921.76",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-03-2026",
+        "value": "916.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-03-2026",
+        "value": "893.69",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-03-2026",
+        "value": "895.86",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-03-2026",
+        "value": "909.94",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "15-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-03-2026",
+        "value": "913.98",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-03-2026",
+        "value": "909.11",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-03-2026",
+        "value": "906.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-03-2026",
+        "value": "912.41",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-03-2026",
+        "value": "920.52",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-03-2026",
+        "value": "923.67",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-03-2026",
+        "value": "915.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-03-2026",
+        "value": "915.76",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-03-2026",
+        "value": "913.83",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-03-2026",
+        "value": "923.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "29-03-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "30-03-2026",
+        "value": "929.9",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-03-2026",
+        "value": "931.57",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2026",
+        "value": "927.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-04-2026",
+        "value": "915.95",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "04-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "05-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "06-04-2026",
+        "value": "922.17",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-04-2026",
+        "value": "914.47",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-04-2026",
+        "value": "922.59",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-04-2026",
+        "value": "895.28",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-04-2026",
+        "value": "894.17",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "12-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-04-2026",
+        "value": "890.33",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-04-2026",
+        "value": "899.39",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-04-2026",
+        "value": "886.97",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-04-2026",
+        "value": "886.09",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-04-2026",
+        "value": "886.32",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-04-2026",
+        "value": "876.32",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-04-2026",
+        "value": "881.22",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-04-2026",
+        "value": "887.79",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-04-2026",
+        "value": "889.87",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-04-2026",
+        "value": "892.18",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-04-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "27-04-2026",
+        "value": "895.07",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-04-2026",
+        "value": "894.18",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-04-2026",
+        "value": "896.03",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-04-2026",
+        "value": "901.76",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "03-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "04-05-2026",
+        "value": "903.05",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-05-2026",
+        "value": "910.01",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-05-2026",
+        "value": "905.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-05-2026",
+        "value": "892.83",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-05-2026",
+        "value": "887.71",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "10-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "11-05-2026",
+        "value": "890.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-05-2026",
+        "value": "894.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-05-2026",
+        "value": "899.91",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-05-2026",
+        "value": "889.19",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-05-2026",
+        "value": "891",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "18-05-2026",
+        "value": "906.68",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-05-2026",
+        "value": "901.59",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-05-2026",
+        "value": "907.51",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-05-2026",
+        "value": "899.68",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "24-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "25-05-2026",
+        "value": "899.86",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-05-2026",
+        "value": "893.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-05-2026",
+        "value": "894.67",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-05-2026",
+        "value": "894.79",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-05-2026",
+        "value": "892.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "31-05-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "01-06-2026",
+        "value": "890.64",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-06-2026",
+        "value": "892.91",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-06-2026",
+        "value": "888.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-06-2026",
+        "value": "894.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-06-2026",
+        "value": "894.99",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "07-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "08-06-2026",
+        "value": "910.29",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-06-2026",
+        "value": "918.91",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-06-2026",
+        "value": "916.39",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-06-2026",
+        "value": "915.97",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-06-2026",
+        "value": "909.02",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "14-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "15-06-2026",
+        "value": "899.3",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-06-2026",
+        "value": "890.13",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-06-2026",
+        "value": "886.53",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-06-2026",
+        "value": "883.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-06-2026",
+        "value": "897.19",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "22-06-2026",
+        "value": "900.6",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-06-2026",
+        "value": "905.78",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-06-2026",
+        "value": "915.58",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-06-2026",
+        "value": "921.42",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-06-2026",
+        "value": "916.97",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "28-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "29-06-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "30-06-2026",
+        "value": "922.34",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2026",
+        "value": "922.21",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-07-2026",
+        "value": "927.35",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-07-2026",
+        "value": "921.7",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "05-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "06-07-2026",
+        "value": "921.74",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-07-2026",
+        "value": "926.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-07-2026",
+        "value": "927.36",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-07-2026",
+        "value": "935.71",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-07-2026",
+        "value": "928.99",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "12-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-07-2026",
+        "value": "924.94",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-07-2026",
+        "value": "928.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-07-2026",
+        "value": "924.78",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-07-2026",
+        "value": "924.5",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-07-2026",
+        "value": "933.92",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-07-2026",
+        "value": "933",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-07-2026",
+        "value": "932.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-07-2026",
+        "value": "936.39",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-07-2026",
+        "value": "946.24",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "26-07-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "27-07-2026",
+        "value": "946.14",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-07-2026",
+        "value": "941.93",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-07-2026",
+        "value": "936.16",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-07-2026",
+        "value": "935.57",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "31-07-2026",
+        "value": "924.78",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "02-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "03-08-2026",
+        "value": "928.42",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-08-2026",
+        "value": "924.89",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-08-2026",
+        "value": "914.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-08-2026",
+        "value": "911.58",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-08-2026",
+        "value": "913.86",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "09-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "10-08-2026",
+        "value": "911.77",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-08-2026",
+        "value": "916.3",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-08-2026",
+        "value": "914.41",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "13-08-2026",
+        "value": "912",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-08-2026",
+        "value": "913.2",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "16-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "17-08-2026",
+        "value": "913.15",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-08-2026",
+        "value": "914.19",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "19-08-2026",
+        "value": "922.12",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-08-2026",
+        "value": "920.26",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-08-2026",
+        "value": "923.23",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "23-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "24-08-2026",
+        "value": "918.17",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-08-2026",
+        "value": "914.64",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-08-2026",
+        "value": "911.43",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "27-08-2026",
+        "value": "918.42",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "28-08-2026",
+        "value": "925.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "30-08-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "31-08-2026",
+        "value": "929.18",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2026",
+        "value": "933.4",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-09-2026",
+        "value": "936.86",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-09-2026",
+        "value": "936.32",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "04-09-2026",
+        "value": "933.47",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "05-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "06-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "07-09-2026",
+        "value": "934.35",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-09-2026",
+        "value": "933.82",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-09-2026",
+        "value": "926.94",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-09-2026",
+        "value": "925.97",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "11-09-2026",
+        "value": "937.17",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "12-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "14-09-2026",
+        "value": "940.91",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-09-2026",
+        "value": "957.53",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-09-2026",
+        "value": "955.37",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-09-2026",
+        "value": "954.85",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "18-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "20-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "21-09-2026",
+        "value": "958.42",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "22-09-2026",
+        "value": "952",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "23-09-2026",
+        "value": "945.87",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "24-09-2026",
+        "value": "959.39",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "25-09-2026",
+        "value": "965.71",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "26-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "27-09-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "28-09-2026",
+        "value": "964.1",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "29-09-2026",
+        "value": "969.7",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "30-09-2026",
+        "value": "970.46",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2026",
+        "value": "972.6",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "02-10-2026",
+        "value": "983.84",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "03-10-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "04-10-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "05-10-2026",
+        "value": "984.82",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "06-10-2026",
+        "value": "977.25",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "07-10-2026",
+        "value": "967.79",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "08-10-2026",
+        "value": "979.85",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "09-10-2026",
+        "value": "981.61",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "10-10-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "11-10-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "12-10-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "13-10-2026",
+        "value": "978.61",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "14-10-2026",
+        "value": "980.79",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "15-10-2026",
+        "value": "987.03",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "16-10-2026",
+        "value": "984.09",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "17-10-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "18-10-2026",
+        "value": "NaN",
+        "statusCode": "ND"
+      },
+      {
+        "indexDateString": "19-10-2026",
+        "value": "981.65",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "20-10-2026",
+        "value": "981.86",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "21-10-2026",
+        "value": "978.56",
+        "statusCode": "OK"
+      }
+    ]
+  },
+  "SeriesInfos": []
+}

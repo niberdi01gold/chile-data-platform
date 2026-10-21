@@ -1,0 +1,142 @@
+{
+  "Codigo": 0,
+  "Descripcion": "Success",
+  "Series": {
+    "descripEsp": "General (empalme BCCh) | IPC Analíticos, variación empalmada BCCh, base 2023 = 100 | Mensual",
+    "descripIng": "Headline (CBC slicing) | CPI Analytics, variation spliced information CBC, base 2023 = 100 | Monthly",
+    "seriesId": "G073.IPC.VAR.2023.M",
+    "Obs": [
+      {
+        "indexDateString": "01-08-2024",
+        "value": "0.2554972303112",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2024",
+        "value": "0.0877686643646",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2024",
+        "value": "0.9744934762952",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2024",
+        "value": "0.250370805122",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-12-2024",
+        "value": "-0.198221740236",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-01-2025",
+        "value": "1.0676303583306",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2025",
+        "value": "0.3929333567221",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2025",
+        "value": "0.5014709083899",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2025",
+        "value": "0.1927067829734",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2025",
+        "value": "0.199107140830776",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-06-2025",
+        "value": "-0.413522438474487",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2025",
+        "value": "0.879006708405285",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2025",
+        "value": "0.0357521269493475",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2025",
+        "value": "0.443010931231782",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2025",
+        "value": "0.0420178544179777",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2025",
+        "value": "0.260548714812188",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-12-2025",
+        "value": "-0.192235970333655",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-01-2026",
+        "value": "0.411530508802699",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2026",
+        "value": "-0.00946499530360256",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2026",
+        "value": "0.957783421261425",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2026",
+        "value": "1.28446301493614",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2026",
+        "value": "0.172112671281639",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-06-2026",
+        "value": "-0.0206963408384979",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2026",
+        "value": "0.0910248219901462",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2026",
+        "value": "0.621674909740094",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2026",
+        "value": "0.387453650700451",
+        "statusCode": "OK"
+      }
+    ]
+  },
+  "SeriesInfos": []
+}

@@ -3,7 +3,7 @@ with rango as (
     select s.indicador,
            date_trunc('month', min(s.fecha))::date as desde,
            date_trunc('month', max(s.fecha))::date as hasta
-    from {{ ref('stg_indicadores') }} s
+    from {{ ref('int_indicadores') }} s
     join {{ ref('reglas_indicadores') }} r using (indicador)
     where r.frecuencia = 'mensual'
     group by s.indicador
@@ -16,6 +16,6 @@ esperados as (
 
 select e.indicador, e.mes as mes_faltante
 from esperados e
-left join {{ ref('stg_indicadores') }} s
+left join {{ ref('int_indicadores') }} s
     on s.indicador = e.indicador and date_trunc('month', s.fecha) = e.mes
 where s.fecha is null

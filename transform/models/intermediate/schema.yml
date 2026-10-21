@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: int_indicadores
+    description: "Serie unificada: Banco Central como fuente principal y mindicador.cl como respaldo."
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+      - name: fuente
+        description: "De dónde viene el dato: 'bcch' o 'mindicador'."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [bcch, mindicador]

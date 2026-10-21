@@ -1,0 +1,10 @@
+indicador,codigo_bcch,nombre,unidad_medida
+dolar,F073.TCO.PRE.Z.D,Dólar observado,Pesos
+euro,F072.CLP.EUR.N.O.D,Euro,Pesos
+uf,F073.UFF.PRE.Z.D,Unidad de fomento (UF),Pesos
+libra_cobre,F019.PPB.PRE.100.D,Precio del cobre (dólares por libra),Dólar
+tpm,F022.TPM.TIN.D001.NO.Z.D,Tasa Política Monetaria (TPM),Porcentaje
+utm,F073.UTR.PRE.Z.M,Unidad tributaria mensual (UTM),Pesos
+ipc,G073.IPC.VAR.2023.M,Indice de Precios al Consumidor (IPC),Porcentaje
+imacec,F032.IMC.IND.Z.Z.EP18.Z.Z.0.M,Imacec,Porcentaje
+tasa_desempleo,F049.DES.TAS.INE9.10.M,Tasa de desempleo,Porcentaje

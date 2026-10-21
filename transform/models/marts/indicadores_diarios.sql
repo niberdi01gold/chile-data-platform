@@ -2,7 +2,7 @@
 -- Fines de semana y feriados repiten el último valor publicado (forward fill).
 
 with silver as (
-    select * from {{ ref('stg_indicadores') }}
+    select * from {{ ref('int_indicadores') }}
 ),
 
 calendario as (

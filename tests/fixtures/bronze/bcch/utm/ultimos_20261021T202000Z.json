@@ -1,0 +1,152 @@
+{
+  "Codigo": 0,
+  "Descripcion": "Success",
+  "Series": {
+    "descripEsp": "Unidad tributaria mensual (UTM)",
+    "descripIng": "Monthly tax unit (UTM)",
+    "seriesId": "F073.UTR.PRE.Z.M",
+    "Obs": [
+      {
+        "indexDateString": "01-08-2024",
+        "value": "65901",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2024",
+        "value": "66362",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2024",
+        "value": "66561",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2024",
+        "value": "66628",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-12-2024",
+        "value": "67294",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-01-2025",
+        "value": "67429",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2025",
+        "value": "67294",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2025",
+        "value": "68034",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2025",
+        "value": "68306",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2025",
+        "value": "68648",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-06-2025",
+        "value": "68785",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2025",
+        "value": "68923",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2025",
+        "value": "68647",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2025",
+        "value": "69265",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2025",
+        "value": "69265",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2025",
+        "value": "69542",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-12-2025",
+        "value": "69542",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-01-2026",
+        "value": "69751",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2026",
+        "value": "69611",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2026",
+        "value": "69889",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2026",
+        "value": "69889",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2026",
+        "value": "70588",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-06-2026",
+        "value": "71506",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2026",
+        "value": "71649",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2026",
+        "value": "71649",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2026",
+        "value": "71721",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2026",
+        "value": "72151",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2026",
+        "value": "72440",
+        "statusCode": "OK"
+      }
+    ]
+  },
+  "SeriesInfos": []
+}

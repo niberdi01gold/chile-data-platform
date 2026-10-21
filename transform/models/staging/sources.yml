@@ -2,10 +2,19 @@ version: 2
 
 sources:
   - name: mindicador
-    description: "Respuestas crudas de la API mindicador.cl, tal como llegaron (capa bronze)."
+    description: "Respuestas crudas de la API mindicador.cl, tal como llegaron (capa bronze). Fuente de respaldo."
     tables:
       - name: bronze
         description: "Un archivo JSON por indicador y extracción. Lo escribe src/extraer.py."
         meta:
           # dbt-duckdb lee la fuente directamente desde los archivos
           external_location: "read_json('../data/bronze/mindicador/*/*.json', filename = true)"
+
+  - name: bcch
+    description: "Respuestas crudas de la API oficial del Banco Central de Chile (capa bronze). Fuente principal."
+    tables:
+      - name: bronze
+        description: "Un archivo JSON por indicador y extracción. Lo escribe src/extraer_bcch.py."
+        meta:
+          # dateformat: el Banco Central entrega las fechas como DD-MM-AAAA
+          external_location: "read_json('../data/bronze/bcch/*/*.json', filename = true, dateformat = '%d-%m-%Y')"

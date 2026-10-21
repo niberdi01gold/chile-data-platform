@@ -23,3 +23,21 @@ models:
       - name: valor
         data_tests:
           - not_null
+
+  - name: stg_bcch
+    description: "Capa silver del Banco Central: una fila por indicador y fecha. El IMACEC ya viene como variación anual (%)."
+    columns:
+      - name: id
+        data_tests:
+          - unique
+          - not_null
+      - name: indicador
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('series_bcch')
+                field: indicador
+      - name: valor
+        data_tests:
+          - not_null

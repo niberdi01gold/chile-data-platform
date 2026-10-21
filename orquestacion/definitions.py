@@ -18,6 +18,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 # Para poder reutilizar las funciones de src/extraer.py
 sys.path.insert(0, str(RAIZ / "src"))
 import extraer  # noqa: E402
+import extraer_bcch  # noqa: E402
 
 extraer.CARPETA_BRONZE = RAIZ / "data" / "bronze" / "mindicador"   # ruta absoluta, sin depender de la carpeta actual
 
@@ -56,6 +57,26 @@ def bronze_mindicador(context: dg.AssetExecutionContext) -> dg.MaterializeResult
     )
 
 
+@dg.asset(
+    key=["bcch", "bronze"],               # el mismo nombre que la fuente "bcch" de dbt
+    group_name="ingesta",
+    description="Descarga las series oficiales del Banco Central de Chile (fuente principal, capa bronze).",
+)
+def bronze_bcch(context: dg.AssetExecutionContext) -> dg.MaterializeResult:
+    registros, fallidos = extraer_bcch.ejecutar()
+    if not registros:
+        raise Exception("Fallaron todas las series del Banco Central")
+    if fallidos:
+        context.log.warning(f"Series con falla: {', '.join(fallidos)} (se usará mindicador.cl de respaldo)")
+    return dg.MaterializeResult(
+        metadata={
+            "series_ok": len(registros),
+            "series_fallidas": dg.MetadataValue.text(", ".join(fallidos) or "ninguna"),
+            "registros": dg.MetadataValue.json(registros),
+        }
+    )
+
+
 # ---------------------------------------------------------------- 2. dbt
 proyecto_dbt = DbtProject(project_dir=RAIZ / "transform", profiles_dir=RAIZ / "transform")
 proyecto_dbt.prepare_if_dev()             # con "dagster dev", vuelve a leer el proyecto dbt en cada inicio
@@ -82,7 +103,7 @@ todos_los_dias = dg.ScheduleDefinition(
 
 
 defs = dg.Definitions(
-    assets=[bronze_mindicador, modelos_dbt],
+    assets=[bronze_mindicador, bronze_bcch, modelos_dbt],
     jobs=[pipeline_diario],
     schedules=[todos_los_dias],
     resources={"dbt": DbtCliResource(project_dir=proyecto_dbt)},

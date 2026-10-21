@@ -1,7 +1,7 @@
 -- Capa gold: último valor de cada indicador y su variación a 30 días y 12 meses.
 
 with silver as (
-    select * from {{ ref('stg_indicadores') }}
+    select * from {{ ref('int_indicadores') }}
 ),
 
 ultimo as (

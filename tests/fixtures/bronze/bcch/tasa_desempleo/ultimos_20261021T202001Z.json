@@ -1,0 +1,137 @@
+{
+  "Codigo": 0,
+  "Descripcion": "Success",
+  "Series": {
+    "descripEsp": "Tasa de desocupación, total | No Ajustada | INE | Mensual | Porcentaje",
+    "descripIng": "Unemployment rate, total | Not adjusted | INE | Monthly | Percentage",
+    "seriesId": "F049.DES.TAS.INE9.10.M",
+    "Obs": [
+      {
+        "indexDateString": "01-08-2024",
+        "value": "8.9013222957233",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2024",
+        "value": "8.7423149114593",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2024",
+        "value": "8.5800798734878",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2024",
+        "value": "8.2176493561929",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-12-2024",
+        "value": "8.079730080387",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-01-2025",
+        "value": "8.0230055082",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2025",
+        "value": "8.3822153939868",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2025",
+        "value": "8.7089485873871",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2025",
+        "value": "8.8410980092718",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2025",
+        "value": "8.9430136868653",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-06-2025",
+        "value": "8.892660584844",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2025",
+        "value": "8.6989792816425",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2025",
+        "value": "8.5611287247469",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2025",
+        "value": "8.5289492688114",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2025",
+        "value": "8.4476619428872",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2025",
+        "value": "8.4243435086445",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-12-2025",
+        "value": "8.049513652087",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-01-2026",
+        "value": "8.2849096372874",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2026",
+        "value": "8.3301283894454",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2026",
+        "value": "8.9302411087251",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2026",
+        "value": "9.10872889999497",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2026",
+        "value": "9.43782135358754",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-06-2026",
+        "value": "9.44058479817351",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2026",
+        "value": "9.52926654500883",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2026",
+        "value": "9.64031909353693",
+        "statusCode": "OK"
+      }
+    ]
+  },
+  "SeriesInfos": []
+}

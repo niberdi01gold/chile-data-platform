@@ -1,0 +1,137 @@
+{
+  "Codigo": 0,
+  "Descripcion": "Success",
+  "Series": {
+    "descripEsp": "Imacec empalmado, serie original (índice 2018=100)",
+    "descripIng": "Monthly indicator of economic activity Imacec,  linked series (2018 index=100)",
+    "seriesId": "F032.IMC.IND.Z.Z.EP18.Z.Z.0.M",
+    "Obs": [
+      {
+        "indexDateString": "01-08-2024",
+        "value": "109.90525559164",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2024",
+        "value": "106.32873388951",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2024",
+        "value": "112.6697629105",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2024",
+        "value": "116.84504090734",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-12-2024",
+        "value": "127.58610908617",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-01-2025",
+        "value": "112.1861404956",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2025",
+        "value": "104.63103572958",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2025",
+        "value": "120.26442117979",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2025",
+        "value": "115.59860362448",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2025",
+        "value": "113.68325414443",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-06-2025",
+        "value": "108.41654927337",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2025",
+        "value": "108.58247960021",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2025",
+        "value": "110.20157047333",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-09-2025",
+        "value": "109.83345754609",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-10-2025",
+        "value": "114.98767952324",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-11-2025",
+        "value": "118.44721471715",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-12-2025",
+        "value": "129.2022409563",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-01-2026",
+        "value": "111.2147495657",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-02-2026",
+        "value": "104.40023494049",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-03-2026",
+        "value": "120.37461245107",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-04-2026",
+        "value": "114.36151833836",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-05-2026",
+        "value": "112.1062643168",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-06-2026",
+        "value": "110.60144683703",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-07-2026",
+        "value": "106.967730924136",
+        "statusCode": "OK"
+      },
+      {
+        "indexDateString": "01-08-2026",
+        "value": "109.084544965603",
+        "statusCode": "OK"
+      }
+    ]
+  },
+  "SeriesInfos": []
+}

@@ -6,4 +6,4 @@ select
     indicador,
     fecha,
     valor
-from {{ ref('stg_indicadores') }}
+from {{ ref('int_indicadores') }}
