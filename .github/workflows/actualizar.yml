@@ -1,0 +1,53 @@
+# Actualizacion diaria en la nube: extrae del Banco Central, construye y prueba con dbt,
+# y publica la base de datos como archivo descargable (release "datos").
+# Si alguna prueba de dbt falla, NO se publica: nunca se entregan datos malos.
+name: Actualizar datos
+
+on:
+  schedule:
+    - cron: "50 12 * * *"     # todos los dias 12:50 UTC = 09:50 hora de Chile
+  workflow_dispatch:           # tambien se puede lanzar a mano
+
+permissions:
+  contents: write              # necesario para publicar el release
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: |
+          grep -viE '^(pywin32|pyreadline3)==' requirements.txt > requirements-linux.txt
+          pip install -r requirements-linux.txt
+
+      - name: Extraer del Banco Central
+        env:
+          BCCH_USER: ${{ secrets.BCCH_USER }}
+          BCCH_PASS: ${{ secrets.BCCH_PASS }}
+        run: python src/extraer_bcch.py --desde 2021
+
+      - name: Respaldo de mindicador.cl (muestra guardada)
+        run: |
+          mkdir -p data/bronze
+          cp -r tests/fixtures/bronze/mindicador data/bronze/
+
+      - name: dbt build (si una prueba falla, aqui se detiene)
+        working-directory: transform
+        run: dbt build --profiles-dir .
+
+      - name: Publicar la base de datos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view datos > /dev/null 2>&1 || \
+            gh release create datos --title "Datos (se actualiza a diario)" \
+              --notes "Base DuckDB generada automaticamente por el workflow Actualizar datos."
+          gh release upload datos data/warehouse.duckdb --clobber
