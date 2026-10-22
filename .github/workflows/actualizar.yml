@@ -9,7 +9,9 @@ on:
   workflow_dispatch:           # tambien se puede lanzar a mano
 
 permissions:
-  contents: write              # necesario para publicar el release
+  contents: write              # publicar el release de datos
+  pages: write                 # publicar la pagina de estado
+  id-token: write              # requerido por GitHub Pages
 
 jobs:
   actualizar:
@@ -51,3 +53,22 @@ jobs:
             gh release create datos --title "Datos (se actualiza a diario)" \
               --notes "Base DuckDB generada automaticamente por el workflow Actualizar datos."
           gh release upload datos data/warehouse.duckdb --clobber
+
+      - name: Generar la pagina de estado
+        run: python src/estado.py
+
+      - name: Preparar la pagina para GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  pagina:
+    needs: actualizar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publicar.outputs.page_url }}
+    steps:
+      - name: Publicar en GitHub Pages
+        id: publicar
+        uses: actions/deploy-pages@v4
